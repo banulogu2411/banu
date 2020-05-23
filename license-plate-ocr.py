@@ -21,9 +21,9 @@ if __name__ == '__main__':
 
 		ocr_threshold = .4
 
-		ocr_weights = 'content/banu/data/ocr/ocr-net.weights'
-		ocr_netcfg  = 'content/banu/data/ocr/ocr-net.cfg'
-		ocr_dataset = 'content/banu/data/ocr/ocr-net.data'
+		ocr_weights = '/content/data/ocr/ocr-net.weights'
+		ocr_netcfg  = '/content/data/ocr/ocr-net.cfg'
+		ocr_dataset = '/content/data/ocr/ocr-net.data'
 
 		ocr_net  = dn.load_net(ocr_netcfg, ocr_weights, 0)
 		ocr_meta = dn.load_meta(ocr_dataset)
